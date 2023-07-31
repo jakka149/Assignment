@@ -9,7 +9,7 @@ public class Home {
     By txt_search = By.xpath("//input[@id='twotabsearchtextbox']");
     By bt_search =  By.xpath("//input[@id='nav-search-submit-button']");
 
-    By result = By.xpath("(//span[@class='a-size-medium a-color-base a-text-normal'])[1]");
+    By result = By.xpath("(//span[@class='a-size-medium a-color-base a-text-bold a-text-normal'])[1]");
 
     public Home(WebDriver driver)
     {
